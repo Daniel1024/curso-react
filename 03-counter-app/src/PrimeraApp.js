@@ -2,9 +2,7 @@ import React from 'react';
 // import React, { Fragment } from 'react';
 
 // FC
-const PrimeraApp = () => {
-
-  const saludo = 'Hola Mundo const';
+const PrimeraApp = ({ saludo = 'Hola Mundo' }) => {
 
   return (
     <>
